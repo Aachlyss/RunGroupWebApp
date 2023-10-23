@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ivan\\Documents\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj": {}
+    "C:\\Users\\ivana\\Documents\\My Docs\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ivan\\Documents\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj": {
+    "C:\\Users\\ivana\\Documents\\My Docs\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan\\Documents\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\ivana\\Documents\\My Docs\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj",
         "projectName": "RunGroupWebApp",
-        "projectPath": "C:\\Users\\Ivan\\Documents\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj",
-        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan\\Documents\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\obj\\",
+        "projectPath": "C:\\Users\\ivana\\Documents\\My Docs\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj",
+        "packagesPath": "C:\\Users\\ivana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivana\\Documents\\My Docs\\GitHubRepos\\RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +40,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
