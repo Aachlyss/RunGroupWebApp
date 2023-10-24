@@ -1,6 +1,6 @@
-﻿using RunGroupWebApp.Models.Enum;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using RunGroupWebApp.Models.Enum;
 
 namespace RunGroupWebApp.Models
 {
