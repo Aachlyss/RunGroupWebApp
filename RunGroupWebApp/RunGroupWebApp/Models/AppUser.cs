@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using RunGroupWebApp.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace RunGroupWebApp.Models
 {

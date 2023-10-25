@@ -1,4 +1,5 @@
 ﻿using RunGroupWebApp.Models.Enum;
+using RunGroupWebApp.Models;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -12,7 +13,7 @@ namespace RunGroupWebApp.Models
         public string? Description { get; set; }
         public string? Image { get; set; }
         [ForeignKey("Address")]
-        public int AddressId { get; set; }
+        public int? AddressId { get; set; }
         public Address? Address { get; set; }
         public ClubCategory ClubCategory { get; set; }
         [ForeignKey("AppUser")]
